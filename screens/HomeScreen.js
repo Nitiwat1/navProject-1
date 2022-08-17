@@ -1,6 +1,5 @@
 import { View, Text, Button } from 'react-native'
 import React from 'react'
-
 import { Ionicons } from '@expo/vector-icons';
 
 const HomeScreen = ({ navigation }) => {
@@ -11,7 +10,7 @@ const HomeScreen = ({ navigation }) => {
             <Button
                 title='เกี่ยวกับเรา'
                 onPress={() => navigation.navigate('About', {
-                    email: 'reactnative.tni.ac.th'
+                    email: 'po.nitiwat_st@tni.ac.th'
                 })}
             />
         </View>
